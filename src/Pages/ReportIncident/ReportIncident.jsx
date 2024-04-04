@@ -22,6 +22,7 @@ function DraggableMarker() {
         }
     }, []);
     console.log(position)
+    console.log('Hello')
     return (
         <Marker
             draggable={draggable}
